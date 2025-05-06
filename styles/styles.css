@@ -145,6 +145,49 @@ nav .fa-bars {
   margin-top: 10px;
 }
 
+/* Banner */
+.banner {
+  margin: 80px 0;
+  background-image: linear-gradient(to right, #3f2321, transparent),
+    url(../assets/images/banner-2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+  padding: 5%;
+  color: #fff;
+}
+
+.banner h3 {
+  font-size: 4vw;
+  line-height: 5.3vw;
+  font-weight: 500;
+}
+
+.banner p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.banner-btn {
+  background-color: #fff;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.banner-btn:hover {
+  opacity: 0.8;
+}
+
+.banner-btn i {
+  margin-left: 10px;
+}
+
 /* small screen devices */
 @media only screen and (max-width: 700px) {
   .logo {

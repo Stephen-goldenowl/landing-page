@@ -127,6 +127,24 @@ nav .fa-bars {
   margin: 5px 0;
 }
 
+/* Service */
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 30px;
+  margin-bottom: 10px;
+}
+
+.services div img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.services h3 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+
 /* small screen devices */
 @media only screen and (max-width: 700px) {
   .logo {

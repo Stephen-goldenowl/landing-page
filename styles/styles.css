@@ -84,6 +84,8 @@ header h1 {
 
 nav .fa-bars {
   display: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 /* Rooms */
@@ -292,6 +294,11 @@ footer p {
     transition: max-height 0.5s;
   }
 
+  .container {
+    padding: 0 7%;
+    margin-top: 100px;
+  }
+
   nav .nav-links li {
     margin: 15px 0;
     display: block;
@@ -303,7 +310,7 @@ footer p {
   }
 
   nav .fa-bars {
-    display: block;
+    display: block !important;
     position: fixed;
     top: 5%;
     right: 7%;
@@ -328,5 +335,64 @@ footer p {
   .register-btn {
     color: #000;
     background-color: #fff;
+  }
+
+  .search-bar {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px 10px 30px;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .search-bar form {
+    display: block;
+  }
+
+  .search-bar form input {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .search-bar form button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 50%);
+  }
+
+  .sub-title {
+    font-size: 6vw;
+  }
+
+  .banner {
+    padding: 15% 5%;
+  }
+
+  .banner h3 {
+    font-size: 7vw;
+    line-height: 8vw;
+  }
+
+  .banner p {
+    font-size: 14px;
+  }
+
+  .banner-btn {
+    padding: 6px 15px;
+    border-radius: 4px;
+    margin-top: 10p;
+    font-size: 14px;
+  }
+
+  .special p {
+    font-size: 22px;
+  }
+
+  .about-msg {
+    font-size: 15px;
   }
 }
